@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66B1E7419306EC300F6BB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E7319306EC300F6BB65 /* Foundation.framework */; };
+		A66B1E7619306EC300F6BB65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E7519306EC300F6BB65 /* CoreGraphics.framework */; };
+		A66B1E7819306EC300F6BB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E7719306EC300F6BB65 /* UIKit.framework */; };
+		A66B1E7E19306EC300F6BB65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66B1E7C19306EC300F6BB65 /* InfoPlist.strings */; };
+		A66B1E8019306EC300F6BB65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B1E7F19306EC300F6BB65 /* main.m */; };
+		A66B1E8419306EC400F6BB65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B1E8319306EC400F6BB65 /* AppDelegate.m */; };
+		A66B1E8719306EC400F6BB65 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66B1E8519306EC400F6BB65 /* Main_iPhone.storyboard */; };
+		A66B1E8A19306EC400F6BB65 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66B1E8819306EC400F6BB65 /* Main_iPad.storyboard */; };
+		A66B1E8D19306EC400F6BB65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B1E8C19306EC400F6BB65 /* ViewController.m */; };
+		A66B1E8F19306EC400F6BB65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66B1E8E19306EC400F6BB65 /* Images.xcassets */; };
+		A66B1E9619306EC400F6BB65 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E9519306EC400F6BB65 /* XCTest.framework */; };
+		A66B1E9719306EC400F6BB65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E7319306EC300F6BB65 /* Foundation.framework */; };
+		A66B1E9819306EC400F6BB65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66B1E7719306EC300F6BB65 /* UIKit.framework */; };
+		A66B1EA019306EC400F6BB65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A66B1E9E19306EC400F6BB65 /* InfoPlist.strings */; };
+		A66B1EA219306EC400F6BB65 /* uvpointTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A66B1EA119306EC400F6BB65 /* uvpointTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A66B1E9919306EC400F6BB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A66B1E6819306EC300F6BB65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A66B1E6F19306EC300F6BB65;
+			remoteInfo = uvpoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A66B1E7019306EC300F6BB65 /* uvpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uvpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66B1E7319306EC300F6BB65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A66B1E7519306EC300F6BB65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A66B1E7719306EC300F6BB65 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A66B1E7B19306EC300F6BB65 /* uvpoint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uvpoint-Info.plist"; sourceTree = "<group>"; };
+		A66B1E7D19306EC300F6BB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66B1E7F19306EC300F6BB65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66B1E8119306EC400F6BB65 /* uvpoint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uvpoint-Prefix.pch"; sourceTree = "<group>"; };
+		A66B1E8219306EC400F6BB65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A66B1E8319306EC400F6BB65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A66B1E8619306EC400F6BB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A66B1E8919306EC400F6BB65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A66B1E8B19306EC400F6BB65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A66B1E8C19306EC400F6BB65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A66B1E8E19306EC400F6BB65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A66B1E9419306EC400F6BB65 /* uvpointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uvpointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66B1E9519306EC400F6BB65 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A66B1E9D19306EC400F6BB65 /* uvpointTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uvpointTests-Info.plist"; sourceTree = "<group>"; };
+		A66B1E9F19306EC400F6BB65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A66B1EA119306EC400F6BB65 /* uvpointTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uvpointTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A66B1E6D19306EC300F6BB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1E7619306EC300F6BB65 /* CoreGraphics.framework in Frameworks */,
+				A66B1E7819306EC300F6BB65 /* UIKit.framework in Frameworks */,
+				A66B1E7419306EC300F6BB65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B1E9119306EC400F6BB65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1E9619306EC400F6BB65 /* XCTest.framework in Frameworks */,
+				A66B1E9819306EC400F6BB65 /* UIKit.framework in Frameworks */,
+				A66B1E9719306EC400F6BB65 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A66B1E6719306EC300F6BB65 = {
+			isa = PBXGroup;
+			children = (
+				A66B1E7919306EC300F6BB65 /* uvpoint */,
+				A66B1E9B19306EC400F6BB65 /* uvpointTests */,
+				A66B1E7219306EC300F6BB65 /* Frameworks */,
+				A66B1E7119306EC300F6BB65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A66B1E7119306EC300F6BB65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1E7019306EC300F6BB65 /* uvpoint.app */,
+				A66B1E9419306EC400F6BB65 /* uvpointTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66B1E7219306EC300F6BB65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1E7319306EC300F6BB65 /* Foundation.framework */,
+				A66B1E7519306EC300F6BB65 /* CoreGraphics.framework */,
+				A66B1E7719306EC300F6BB65 /* UIKit.framework */,
+				A66B1E9519306EC400F6BB65 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A66B1E7919306EC300F6BB65 /* uvpoint */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1E8219306EC400F6BB65 /* AppDelegate.h */,
+				A66B1E8319306EC400F6BB65 /* AppDelegate.m */,
+				A66B1E8519306EC400F6BB65 /* Main_iPhone.storyboard */,
+				A66B1E8819306EC400F6BB65 /* Main_iPad.storyboard */,
+				A66B1E8B19306EC400F6BB65 /* ViewController.h */,
+				A66B1E8C19306EC400F6BB65 /* ViewController.m */,
+				A66B1E8E19306EC400F6BB65 /* Images.xcassets */,
+				A66B1E7A19306EC300F6BB65 /* Supporting Files */,
+			);
+			path = uvpoint;
+			sourceTree = "<group>";
+		};
+		A66B1E7A19306EC300F6BB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1E7B19306EC300F6BB65 /* uvpoint-Info.plist */,
+				A66B1E7C19306EC300F6BB65 /* InfoPlist.strings */,
+				A66B1E7F19306EC300F6BB65 /* main.m */,
+				A66B1E8119306EC400F6BB65 /* uvpoint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A66B1E9B19306EC400F6BB65 /* uvpointTests */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1EA119306EC400F6BB65 /* uvpointTests.m */,
+				A66B1E9C19306EC400F6BB65 /* Supporting Files */,
+			);
+			path = uvpointTests;
+			sourceTree = "<group>";
+		};
+		A66B1E9C19306EC400F6BB65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A66B1E9D19306EC400F6BB65 /* uvpointTests-Info.plist */,
+				A66B1E9E19306EC400F6BB65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A66B1E6F19306EC300F6BB65 /* uvpoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66B1EA519306EC400F6BB65 /* Build configuration list for PBXNativeTarget "uvpoint" */;
+			buildPhases = (
+				A66B1E6C19306EC300F6BB65 /* Sources */,
+				A66B1E6D19306EC300F6BB65 /* Frameworks */,
+				A66B1E6E19306EC300F6BB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uvpoint;
+			productName = uvpoint;
+			productReference = A66B1E7019306EC300F6BB65 /* uvpoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A66B1E9319306EC400F6BB65 /* uvpointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A66B1EA819306EC400F6BB65 /* Build configuration list for PBXNativeTarget "uvpointTests" */;
+			buildPhases = (
+				A66B1E9019306EC400F6BB65 /* Sources */,
+				A66B1E9119306EC400F6BB65 /* Frameworks */,
+				A66B1E9219306EC400F6BB65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66B1E9A19306EC400F6BB65 /* PBXTargetDependency */,
+			);
+			name = uvpointTests;
+			productName = uvpointTests;
+			productReference = A66B1E9419306EC400F6BB65 /* uvpointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A66B1E6819306EC300F6BB65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Steve Hasse";
+				TargetAttributes = {
+					A66B1E9319306EC400F6BB65 = {
+						TestTargetID = A66B1E6F19306EC300F6BB65;
+					};
+				};
+			};
+			buildConfigurationList = A66B1E6B19306EC300F6BB65 /* Build configuration list for PBXProject "uvpoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A66B1E6719306EC300F6BB65;
+			productRefGroup = A66B1E7119306EC300F6BB65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A66B1E6F19306EC300F6BB65 /* uvpoint */,
+				A66B1E9319306EC400F6BB65 /* uvpointTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A66B1E6E19306EC300F6BB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1E8A19306EC400F6BB65 /* Main_iPad.storyboard in Resources */,
+				A66B1E8F19306EC400F6BB65 /* Images.xcassets in Resources */,
+				A66B1E8719306EC400F6BB65 /* Main_iPhone.storyboard in Resources */,
+				A66B1E7E19306EC300F6BB65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B1E9219306EC400F6BB65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1EA019306EC400F6BB65 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A66B1E6C19306EC300F6BB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1E8D19306EC400F6BB65 /* ViewController.m in Sources */,
+				A66B1E8419306EC400F6BB65 /* AppDelegate.m in Sources */,
+				A66B1E8019306EC300F6BB65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A66B1E9019306EC400F6BB65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66B1EA219306EC400F6BB65 /* uvpointTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66B1E9A19306EC400F6BB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A66B1E6F19306EC300F6BB65 /* uvpoint */;
+			targetProxy = A66B1E9919306EC400F6BB65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A66B1E7C19306EC300F6BB65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66B1E7D19306EC300F6BB65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A66B1E8519306EC400F6BB65 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66B1E8619306EC400F6BB65 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A66B1E8819306EC400F6BB65 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66B1E8919306EC400F6BB65 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A66B1E9E19306EC400F6BB65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66B1E9F19306EC400F6BB65 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A66B1EA319306EC400F6BB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66B1EA419306EC400F6BB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A66B1EA619306EC400F6BB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uvpoint/uvpoint-Prefix.pch";
+				INFOPLIST_FILE = "uvpoint/uvpoint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A66B1EA719306EC400F6BB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uvpoint/uvpoint-Prefix.pch";
+				INFOPLIST_FILE = "uvpoint/uvpoint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A66B1EA919306EC400F6BB65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/uvpoint.app/uvpoint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uvpoint/uvpoint-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "uvpointTests/uvpointTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A66B1EAA19306EC400F6BB65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/uvpoint.app/uvpoint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uvpoint/uvpoint-Prefix.pch";
+				INFOPLIST_FILE = "uvpointTests/uvpointTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A66B1E6B19306EC300F6BB65 /* Build configuration list for PBXProject "uvpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66B1EA319306EC400F6BB65 /* Debug */,
+				A66B1EA419306EC400F6BB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A66B1EA519306EC400F6BB65 /* Build configuration list for PBXNativeTarget "uvpoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66B1EA619306EC400F6BB65 /* Debug */,
+				A66B1EA719306EC400F6BB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A66B1EA819306EC400F6BB65 /* Build configuration list for PBXNativeTarget "uvpointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66B1EA919306EC400F6BB65 /* Debug */,
+				A66B1EAA19306EC400F6BB65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A66B1E6819306EC300F6BB65 /* Project object */;
+}
